@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.container > div{
+    /* border: solid red 1px; */
+}
+.head{
+    height: 8vh;
+    background-color: rgb(31, 117, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+.brand{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.body{
+    height: 79.3vh;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    padding: 1rem;
+}
+.body>div{
+    /* border: solid red 1px; */
+    border-radius: 15px;
+    height: 60vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+    padding: 1rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.content>div{
+    /* border: solid red 1px; */
+    border-radius: 1rem;
+    height: 2.5rem;
+
+}
+.content>main{
+    display: flex;
+    overflow-x: scroll;
+    /* overflow-y: scroll; */
+    scroll-behavior: auto;
+    gap: .5rem;
+}
+span{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+}
+.price{
+    color: rgb(216, 143, 35);
+}
+.date{
+    margin-top: 2px;
+    font-size: small;
+    font-weight: bold;
+}
+.title{
+    color: black;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    /* padding: .2rem 6.4rem; */
+}
+.signup{
+    /* margin: 2rem 8rem; */
+    margin-left: 30vw;
+    margin-top: .5vh;
+    border: solid green 1px;
+    border-radius: 3rem;
+    height: 2rem;
+    background-color: green;
+    width: 40vw;
+    align-items: center;
+    text-align: center;
+    padding: .5rem 2.4rem;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+}
+.bar{
+    height: 9vh;
+    display: flex;
+    flex: 1;
+}
+.bar>div, .prof{
+    /* border: solid red 1px; */
+    height: 3.2vh;
+    width: 25vw;
+    background-color: rgb(160, 98, 98);
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    align-items: center;
+}
+
+
