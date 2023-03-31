@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#product-form{
+    border: solid green 1px;
+    background-color: green;
+    border-radius: 15px;
+    width: 90vw;
+    padding: 1rem;
+    margin: 1rem ;
+}
+#product-form-input{
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#product-form-input-input{
+    border: none;
+}
+#product-form-input-input::placeholder{
+    font-style: italic;
+
+}
